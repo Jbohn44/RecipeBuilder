@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <Folder Include="Views\Ingredient\" />
+    <Folder Include="Views\User\" />
   </ItemGroup>
 
 </Project>

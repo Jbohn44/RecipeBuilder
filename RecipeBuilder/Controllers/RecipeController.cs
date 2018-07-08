@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using RecipeBuilder.Models;
+using RecipeBuilder.ViewModels;
 
 namespace RecipeBuilder.Controllers
 {
@@ -17,7 +18,8 @@ namespace RecipeBuilder.Controllers
 
         public IActionResult Add()
         {
-            return View();
+            AddRecipeViewModel addRecipeViewModel = new AddRecipeViewModel();
+            return View(addRecipeViewModel);
         }
     }
 }
