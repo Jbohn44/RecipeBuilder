@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace RecipeBuilder.Models
 {
+    //Recipe Class.  Sets a recipe id, name, instructions, and list of ingredients.
     public class Recipe
     {
         public int ID { get; set; }

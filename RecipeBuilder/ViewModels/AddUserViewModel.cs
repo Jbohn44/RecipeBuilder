@@ -8,8 +8,8 @@ namespace RecipeBuilder.ViewModels
 {
     public class AddUserViewModel
     {
-        [Display(Name = "Email Address")]
         [Required(ErrorMessage = "Email Address Required")]
+        [Display(Name = "Email Address")]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 

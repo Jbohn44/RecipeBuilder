@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<h1>Welcome to RecipeBuilder!</h1>
+<br />
+<br />
+<p>Sign In</p>
+
+<form method="post">
+    <div>
+        <label >Username</label>
+        <input />
+    </div>
+    <div>
+        <label>Password</label>
+        <input />
+    </div>
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+</form>
+<br />
+<p>--or--</p>
+
+<a asp-controller="User" asp-action="Add">Create A New Account</a>

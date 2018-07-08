@@ -17,7 +17,7 @@ namespace RecipeBuilder.ViewModels
         [Required(ErrorMessage ="Please give your recipe instructions")]
         public string Instructions { get; set; }
 
-        public List<SelectListItem> Ingredients { get; set; }
+        public string Ingredient { get; set; }
 
 
         

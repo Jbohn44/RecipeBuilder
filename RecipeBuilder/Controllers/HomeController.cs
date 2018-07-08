@@ -12,7 +12,8 @@ namespace RecipeBuilder.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return Redirect("/Welcome");  //redirected to RecipeController
+            
         }
 
         public IActionResult About()
